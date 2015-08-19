@@ -9,10 +9,10 @@ if Rails.env.production?
   }
 else
   aws = {
-    access_key_id: ENV["AWS_ACCESS_KEY"],
-    secret_access_key: ENV["AWS_SECRET_KEY"],
-    region: "us-west-1",
-    bucket: "valuesboard-test",
+    access_key_id: ENV["AWS_ACCESS_KEY_ID"],
+    secret_access_key: ENV["AWS_SECRET_ACCESS_KEY"],
+    region: "us-east-1",
+    bucket: "valuesboard-development",
   }
 end
 

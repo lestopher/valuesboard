@@ -10,7 +10,7 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'autoprefixer-rails'
 
 gem 'bootstrap_form'
-gem 'bootsy'
+gem 'bootsy', git: 'https://github.com/volmer/bootsy', branch: 'master'
 
 gem "refile", require: "refile/rails"
 gem "refile-s3"

@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/volmer/bootsy
+  revision: 6171eb84ba2b8f101b9826ba91243c48b0f559a4
+  branch: master
+  specs:
+    bootsy (2.1.0)
+      carrierwave (~> 0.10)
+      mini_magick (~> 4.2)
+      remotipart (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -55,10 +65,6 @@ GEM
     bootstrap-wysihtml5-rails (0.3.3.7)
       railties (>= 3.0)
     bootstrap_form (2.3.0)
-    bootsy (2.1.0)
-      carrierwave (~> 0.10)
-      mini_magick (~> 4.0)
-      remotipart (~> 1.2)
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
@@ -211,7 +217,7 @@ DEPENDENCIES
   bootstrap-sass-extras
   bootstrap-wysihtml5-rails
   bootstrap_form
-  bootsy
+  bootsy!
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
